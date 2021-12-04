@@ -1,6 +1,9 @@
 # BeamNG_terrainMaterialCache
 Cached Texture files for BeamNG
+
 Hack to fix the Black Terrain found after the 0.24 release on Linux
+
+Still looking for a proper solution
 
 ## Usage
 ```Bash
