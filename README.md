@@ -21,4 +21,5 @@ rm -d terrainMaterialCache
 ```
 5D7EB92FA87F29FA.dds
 927556F7D1F7DBC6.dds
+7C9435E9D1D36B7F.dds
 ```
