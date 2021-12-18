@@ -16,14 +16,6 @@ rm terrainMaterialCache.tar.gz
 rm -d terrainMaterialCache
 ```
 
-### You can open an issue if you get your hands on any of these missing textures
-
-```
-5D7EB92FA87F29FA.dds
-927556F7D1F7DBC6.dds
-7C9435E9D1D36B7F.dds
-```
-
 ### You created a map using a PBR terrain and want to contribute
 Delete all files in `%localappdata%\BeamNG.drive\0.24\temp\art\terrainMaterialCache`
 
