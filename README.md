@@ -33,6 +33,6 @@ Copy all files inside of `%localappdata%\BeamNG.drive\0.24\temp\art\terrainMater
 
 Upload the archive
 
-Open a new issue
+Use this link for further steps
 
-Use contribute.md as a template for the next steps
+https://github.com/SnoutBug/BeamNG_terrainMaterialCache/issues/new?assignees=&labels=enhancement&template=contribute.md&title=
