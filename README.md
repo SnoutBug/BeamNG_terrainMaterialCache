@@ -19,7 +19,9 @@ cd ~/
 Note: there may be multiple releases. You may change the version to download different textures.
 |Release|Maps/Mods|Command|
 |----|-----|----|
-|1.0|Utah, Jungle Rock Island|`cd ~/.steam/root/steamapps/compatdata/284160/pfx/drive_c/users/steamuser/AppData/Local/BeamNG.drive/0.24/temp/art && wget github.com/SnoutBug/BeamNG_terrainMaterialCache/releases/download/1.0/terrainMaterialCache.tar.gz && tar -xf terrainMaterialCache.tar.gz && rm terrainMaterialCache.tar.gz && cd ~/`|
+|1.0|Utah, Jungle Rock Island|```Bash
+cd ~/.steam/root/steamapps/compatdata/284160/pfx/drive_c/users/steamuser/AppData/Local/BeamNG.drive/0.24/temp/art && wget github.com/SnoutBug/BeamNG_terrainMaterialCache/releases/download/1.0/terrainMaterialCache.tar.gz && tar -xf terrainMaterialCache.tar.gz && rm terrainMaterialCache.tar.gz && cd ~/
+`|
 
 
 ### You created a map using a PBR terrain and want to contribute
