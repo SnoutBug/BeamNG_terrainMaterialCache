@@ -20,7 +20,7 @@ rm -d terrainMaterialCache
 Note: there may be multiple releases. You may change the version to download different textures.
 |Release|Maps/Mods|wget|
 |----|-----|----|
-|1.0|Utah, Jungle Rock Island|wget https://github.com/SnoutBug/BeamNG_terrainMaterialCache/releases/download/1.0/terrainMaterialCache.tar.gz|
+|1.0|Utah, Jungle Rock Island|`wget https://github.com/SnoutBug/BeamNG_terrainMaterialCache/releases/download/1.0/terrainMaterialCache.tar.gz`|
 
 
 ### You created a map using a PBR terrain and want to contribute
