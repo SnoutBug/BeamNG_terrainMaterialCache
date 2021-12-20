@@ -9,18 +9,18 @@ Massive thanks for Bauer33333 for providing the pre-generated textures for this 
 
 ## Usage
 ```Bash
-mkdir ~/.local/share/Steam/steamapps/compatdata/284160/pfx/drive_c/users/steamuser/AppData/Local/BeamNG.drive/0.24/temp/art
-mkdir ~/.local/share/Steam/steamapps/compatdata/284160/pfx/drive_c/users/steamuser/AppData/Local/BeamNG.drive/0.24/temp/art/terrainMaterialCache
-wget https://github.com/SnoutBug/BeamNG_terrainMaterialCache/releases/download/1.0/terrainMaterialCache.tar.gz
-tar -xvf terrainMaterialCache.tar.gz
-mv terrainMaterialCache/* ~/.local/share/Steam/steamapps/compatdata/284160/pfx/drive_c/users/steamuser/AppData/Local/BeamNG.drive/0.24/temp/art/terrainMaterialCache/
+mkdir ~/.steam/root/steamapps/compatdata/284160/pfx/drive_c/users/steamuser/AppData/Local/BeamNG.drive/0.24/temp/art
+cd "$_"
+wget github.com/SnoutBug/BeamNG_terrainMaterialCache/releases/download/1.0/terrainMaterialCache.tar.gz
+tar -xf terrainMaterialCache.tar.gz
 rm terrainMaterialCache.tar.gz
-rm -d terrainMaterialCache
+cd ~/
 ```
 Note: there may be multiple releases. You may change the version to download different textures.
-|Release|Maps/Mods|wget|
+|Release|Maps/Mods|Command|
 |----|-----|----|
-|1.0|Utah, Jungle Rock Island|`wget https://github.com/SnoutBug/BeamNG_terrainMaterialCache/releases/download/1.0/terrainMaterialCache.tar.gz`|
+|1.0|Utah, Jungle Rock Island|`cd ~/.steam/root/steamapps/compatdata/284160/pfx/drive_c/users/steamuser/AppData/Local/BeamNG.drive/0.24/temp/art && wget github.com/SnoutBug/BeamNG_terrainMaterialCache/releases/download/1.0/terrainMaterialCache.tar.gz && tar -xf terrainMaterialCache.tar.gz && rm terrainMaterialCache.tar.gz && cd ~/
+`|
 
 
 ### You created a map using a PBR terrain and want to contribute
