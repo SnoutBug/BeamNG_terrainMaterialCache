@@ -11,19 +11,19 @@ Massive thanks to Bauer33333 for providing the pre-generated textures for this t
 ```Bash
 mkdir ~/.steam/root/steamapps/compatdata/284160/pfx/drive_c/users/steamuser/AppData/Local/BeamNG.drive/0.24/temp/art
 cd "$_"
-wget github.com/SnoutBug/BeamNG_terrainMaterialCache/releases/download/1.0/terrainMaterialCache.tar.gz
-tar -xf terrainMaterialCache.tar.gz
-rm terrainMaterialCache.tar.gz
+url=github.com/SnoutBug/BeamNG_terrainMaterialCache/releases/download/default/
+wget ${url}etk.tar.gz
+wget ${url}jri.tar.gz
+wget ${url}utah.tar.gz
+wget ${url}derby.tar.gz
+wget ${url}hirochi.tar.gz
+wget ${url}industrial.tar.gz
+wget ${url}gridmap_v2.tar.gz
+wget ${url}small_island.tar.gz
+ls *.tar.gz | xargs -n 1 tar -xvf
+rm *.tar.gz
 cd ~/
 ```
-Note: there may be multiple releases. You may change the version to download different textures.
-
-If you want to use the one-liner make sure you created the art directory first
-`mkdir ~/.steam/root/steamapps/compatdata/284160/pfx/drive_c/users/steamuser/AppData/Local/BeamNG.drive/0.24/temp/art`
-|Tag|Maps/Mods|Command|
-|----|-----|----|
-|1.0|Utah, Jungle Rock Island|`cd ~/.steam/root/steamapps/compatdata/284160/pfx/drive_c/users/steamuser/AppData/Local/BeamNG.drive/0.24/temp/art && wget github.com/SnoutBug/BeamNG_terrainMaterialCache/releases/download/1.0/terrainMaterialCache.tar.gz && tar -xf terrainMaterialCache.tar.gz && rm terrainMaterialCache.tar.gz && cd ~/`|
-
 
 ### You created a map using a PBR terrain and want to contribute
 Delete all files in `%localappdata%\BeamNG.drive\0.24\temp\art\terrainMaterialCache`
