@@ -41,7 +41,7 @@ ls *.tar.gz | xargs -n 1 tar -xvf
 rm *.tar.gz
 cd ~/
 ```
-
+## Contribute
 ### You created a map using a PBR terrain and want to contribute
 Delete all files in `%localappdata%\BeamNG.drive\0.24\temp\art\terrainMaterialCache`
 
