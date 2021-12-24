@@ -27,7 +27,7 @@ cd ~/
 ```
 ### Maps from the BeamNG Repository (Mods)
  1. Look at the URL for the Repository
- 2. www.beamng.com/resources/natural-playground.**18030**/
+ 2. www.beamng.com/resources/natural-playground.18030/
  3. The URL will contain a number (18030)
  4. If the map has been added to the this repository you will be able to find a tag with the same number.
  5. github.com/SnoutBug/BeamNG_terrainMaterialCache/tags
