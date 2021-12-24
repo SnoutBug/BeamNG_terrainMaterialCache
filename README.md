@@ -30,7 +30,7 @@ cd ~/
  2. www.beamng.com/resources/natural-playground.18030/
  3. The URL will contain a number (18030)
  4. If the map has been added to the this repository you will be able to find a tag with the same number.
- 5. github.com/SnoutBug/BeamNG_terrainMaterialCache/tags
+ 5. www.github.com/SnoutBug/BeamNG_terrainMaterialCache/tags
  6. Use these commands to download the textures for this map and replace *id_here* with the id found in the URL
  
 ```Bash
