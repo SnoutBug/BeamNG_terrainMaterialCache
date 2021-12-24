@@ -28,7 +28,7 @@ cd ~/
 ### BeamNG Repository (Mods)
  1. Look at the URL of your map (eg. www.beamng.com/resources/natural-playground.18030/)
  2. Copy the number behind the period (18030) to this URL www.github.com/SnoutBug/BeamNG_terrainMaterialCache/releases/tag/18030
- 3. If the page exists, you will find a one-liner in the releases description which you can use to downlad the textures
+ 3. If the page exists, you will find a one-liner in the release's description which you can then use to downlad the textures
 
 ## Contribute
 ### You created a map using a PBR terrain and want to contribute
