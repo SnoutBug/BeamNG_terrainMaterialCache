@@ -26,21 +26,10 @@ rm *.tar.gz
 cd ~/
 ```
 ### BeamNG Repository (Mods)
- 1. Look at the URL of your map
- 2. www.beamng.com/resources/natural-playground.18030/
- 3. The URL will contain a number (18030)
- 4. If the map has been added to the this repository you will be able to find a tag with the same number.
- 5. www.github.com/SnoutBug/BeamNG_terrainMaterialCache/tags
- 6. Use these commands to download the textures for this map and replace *id_here* with the id found in the URL
- 
-```Bash
-mkdir ~/.steam/root/steamapps/compatdata/284160/pfx/drive_c/users/steamuser/AppData/Local/BeamNG.drive/0.24/temp/art
-cd "$_"
-wget github.com/SnoutBug/BeamNG_terrainMaterialCache/releases/download/*id_here*/main.tar.gz
-ls *.tar.gz | xargs -n 1 tar -xvf
-rm *.tar.gz
-cd ~/
-```
+ 1. Look at the URL of your map (eg. www.beamng.com/resources/natural-playground.18030/)
+ 2. Copy the number behind the period (18030) to this URL www.github.com/SnoutBug/BeamNG_terrainMaterialCache/releases/tag/18030
+ 3. If the page exists, you will find a one-liner in the releases description which you can use to downlad the textures
+
 ## Contribute
 ### You created a map using a PBR terrain and want to contribute
 Delete all files in `%localappdata%\BeamNG.drive\0.24\temp\art\terrainMaterialCache`
