@@ -7,7 +7,7 @@ Still looking for a proper solution
 
 Massive thanks to Bauer33333 for providing the pre-generated textures for this transplant.
 
-## Usage (Proton)
+## Usage (Steam - Proton)
 ### Default Maps
 ```Bash
 mkdir ~/.steam/root/steamapps/compatdata/284160/pfx/drive_c/users/steamuser/AppData/Local/BeamNG.drive/0.24/temp/art
