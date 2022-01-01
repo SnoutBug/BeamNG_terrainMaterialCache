@@ -9,6 +9,10 @@ Massive thanks to Bauer33333 for providing the pre-generated textures for this t
 
 ## Usage (Steam - Proton)
 ### Default Maps
+Please verify that this path exists BEFORE using the commands below
+
+`~/.steam/root/steamapps/compatdata/284160/pfx/drive_c/users/steamuser/AppData/Local/BeamNG.drive/0.24/temp/art`
+
 ```Bash
 mkdir ~/.steam/root/steamapps/compatdata/284160/pfx/drive_c/users/steamuser/AppData/Local/BeamNG.drive/0.24/temp/art
 cd "$_"
