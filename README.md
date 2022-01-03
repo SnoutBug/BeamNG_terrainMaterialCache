@@ -45,7 +45,7 @@ cd ~/
 ```Bash
 mkdir ../../compatdata/284160/pfx/drive_c/users/steamuser/AppData/Local/BeamNG.drive/0.24/temp/art
 ```
- 5. If successful: Copy the all commands from above (**excluding** the first one)
+ 5. If successful: Copy the all commands from [above](https://github.com/SnoutBug/BeamNG_terrainMaterialCache#default-maps) (**excluding** the first one)
  
  #### Running the Game with WINE
  1. Find the equivalent of: `%localappdata%\BeamNG.drive\0.24\temp\art\terrainMaterialCache`
@@ -53,7 +53,7 @@ mkdir ../../compatdata/284160/pfx/drive_c/users/steamuser/AppData/Local/BeamNG.d
  ```Bash
  mkdir ~/.wine/drive_c/users/$USER/AppData/Local/BeamNG.drive/0.24/temp/art
  ```
- 4. If successful: Copy the all commands from above (**excluding** the first one)
+ 4. If successful: Copy the all commands from [above](https://github.com/SnoutBug/BeamNG_terrainMaterialCache#default-maps) (**excluding** the first one)
 
 ## Contribute
 ### You created a map using a PBR terrain and want to contribute
