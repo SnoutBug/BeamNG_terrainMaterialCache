@@ -36,6 +36,25 @@ cd ~/
  2. Copy the number behind the period (18030) to the following URL like this: www.github.com/SnoutBug/BeamNG_terrainMaterialCache/releases/tag/18030
  3. If the page exists, you will find a one-liner in the release's description which you can then use to downlad the textures
 
+### Troubleshooting
+ #### The above mentioned path did not exist
+ 1. Open your Steam Library and find BeamNG.drive
+ 2. Right Click > Manage > Browse Local Files
+ 3. Right Click > Open Terminal (or find a different way to do so)
+ 4. Use the following command
+```Bash
+mkdir ../../compatdata/284160/pfx/drive_c/users/steamuser/AppData/Local/BeamNG.drive/0.24/temp/art
+```
+ 5. If successful: Copy the all commands from above (**excluding** the first one)
+ 
+ #### Running the Game with WINE
+ 1. Find the equivalent of: `%localappdata%\BeamNG.drive\0.24\temp\art\terrainMaterialCache`
+ 2. Modify the command below if need be
+ ```Bash
+ mkdir ~/.wine/drive_c/users/$USER/AppData/Local/BeamNG.drive/0.24/temp/art
+ ```
+ 4. If successful: Copy the all commands from above (**excluding** the first one)
+
 ## Contribute
 ### You created a map using a PBR terrain and want to contribute
 Delete all files in `%localappdata%\BeamNG.drive\0.24\temp\art\terrainMaterialCache`
