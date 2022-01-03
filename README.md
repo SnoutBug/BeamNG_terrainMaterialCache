@@ -57,14 +57,8 @@ mkdir ../../compatdata/284160/pfx/drive_c/users/steamuser/AppData/Local/BeamNG.d
 
 ## Contribute
 ### You created a map using a PBR terrain and want to contribute
-Delete all files in `%localappdata%\BeamNG.drive\0.24\temp\art\terrainMaterialCache`
-
-Load up your map and only your map
-
-Copy all files inside of `%localappdata%\BeamNG.drive\0.24\temp\art\terrainMaterialCache` into an archive
-
-Upload the archive
-
-Use this link for further steps
-
-https://github.com/SnoutBug/BeamNG_terrainMaterialCache/issues/new?assignees=&labels=enhancement&template=contribute.md&title=
+ 1. Delete all files in `%localappdata%\BeamNG.drive\0.24\temp\art\terrainMaterialCache`
+ 2. Load up your map and only your map
+ 3. Copy all files inside of `%localappdata%\BeamNG.drive\0.24\temp\art\terrainMaterialCache` into an archive
+ 4. Upload the archive
+ 5. Use this [link](https://github.com/SnoutBug/BeamNG_terrainMaterialCache/issues/new?assignees=&labels=enhancement&template=contribute.md&title=Repository PBR Textures) for further steps
