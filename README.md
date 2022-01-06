@@ -61,4 +61,4 @@ mkdir ../../compatdata/284160/pfx/drive_c/users/steamuser/AppData/Local/BeamNG.d
  2. Load up your map and only your map
  3. Copy all files inside of `%localappdata%\BeamNG.drive\0.24\temp\art\terrainMaterialCache` into an archive
  4. Upload the archive
- 5. Use this [link](https://github.com/SnoutBug/BeamNG_terrainMaterialCache/issues/new?assignees=&labels=enhancement&template=contribute.md&title=Repository PBR Textures) for further steps
+ 5. Use this [link](https://github.com/SnoutBug/BeamNG_terrainMaterialCache/issues/new?assignees=&labels=enhancement&template=contribute.md&title=Repository-PBR-Textures) for further steps
