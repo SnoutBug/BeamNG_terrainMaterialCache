@@ -1,6 +1,6 @@
 # BeamNG_terrainMaterialCache
 Cached Texture files for BeamNG
-
+[!](https://img.shields.io/badge/dynamic/json?label=Downloads&query=download_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2FSnoutBug%2FBeamNG_terrainMaterialCache%2Freleases%2Fassets%2F52289435) 
 Hack to fix the Black Terrain found after the 0.24 release on Linux
 
 Still looking for a proper solution
