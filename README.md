@@ -1,5 +1,5 @@
 # BeamNG_terrainMaterialCache
-[![Generic Badge](https://img.shields.io/badge/dynamic/json?color=FF6600&label=Games%20Fixed&query=download_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2FSnoutBug%2FBeamNG_terrainMaterialCache%2Freleases%2Fassets%2F52289443)](https://github.com/SnoutBug/BeamNG_terrainMaterialCache/releases/tag/default)
+[![Generic Badge](https://img.shields.io/badge/dynamic/json?logoColor=violet&color=FF6600&link=https://wiki.beamng.com/images/b/be/BeamNG-logo-icon-2016.svg&label=Games%20Fixed&query=download_count&url=https%3A%2F%2Fapi.github.com%2Frepos%2FSnoutBug%2FBeamNG_terrainMaterialCache%2Freleases%2Fassets%2F52289443)](https://github.com/SnoutBug/BeamNG_terrainMaterialCache/releases/tag/default)
 
 Cached Texture files for BeamNG
 
