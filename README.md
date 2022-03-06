@@ -8,7 +8,7 @@ Hack to fix the Black Terrain found after the 0.24 release on Linux
 Still looking for a proper solution
 
 Massive thanks to Bauer33333 for providing the pre-generated textures for this transplant.
-## [Script] Usage (Steam - Proton)
+## [Script] Usage
 ```Bash
 curl -s https://raw.githubusercontent.com/SnoutBug/BeamNG_terrainMaterialCache/main/auto_update.py | python3 -
 ```
