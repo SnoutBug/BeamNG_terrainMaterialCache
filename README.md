@@ -17,7 +17,7 @@ If you are getting the message
 Please make sure that you entered the right path
 python3 auto_update.py PATH_TO_/AppData/Local/BeamNG.drive/
 ```
-add the correct path behind `| python3 - ` and try again.
+add the correct path behind `| python3 - ` and try again. (the space behind the last dash is important!)
 
 ## [Manual] Usage (Steam - Proton)
 ### Default Maps
