@@ -38,26 +38,31 @@ response = requests.get('https://api.github.com/repos/snoutbug/beamng_terrainmat
 for tag in response:
     tags.append(str(tag['name']))
 
-print('Starting to update.\nYou can always cancel the download by pressing CTRL + C')
+print('\n\nStarting to update.\nYou can always cancel the download by pressing CTRL + C')
+print('\nLooking for modded maps...')
 
-for mod in repodb['mods']:
-    mod_id = str(repodb['mods'][mod]['modData'].get('resource_id'))
-    mod_title = str(repodb['mods'][mod]['modData'].get('title'))
-    if mod_id in tags:
-        print('Getting textures for ' + mod_title)
-        url = 'https://github.com/SnoutBug/BeamNG_terrainMaterialCache/releases/download/' + mod_id + '/main.tar.gz'
-        filename = mod_id + '.tar.gz'
-        urllib.request.urlretrieve(url, filename)
-        with tarfile.open(filename) as tar:
+try:
+    for mod in repodb['mods']:
+        mod_id = str(repodb['mods'][mod]['modData'].get('resource_id'))
+        mod_title = str(repodb['mods'][mod]['modData'].get('title'))
+        if mod_id in tags:
+            print('Getting textures for ' + mod_title)
+            url = 'https://github.com/SnoutBug/BeamNG_terrainMaterialCache/releases/download/' + mod_id + '/main.tar.gz'
+            filename = mod_id + '.tar.gz'
+            urllib.request.urlretrieve(url, filename)
+            with tarfile.open(filename) as tar:
+                tar.extractall(cache)
+            os.remove(filename)
+
+    print('\nLooking for default maps...')
+    url = 'https://github.com/SnoutBug/BeamNG_terrainMaterialCache/releases/download/default/'
+    for map in default:
+        print('Getting textures for ' + re.sub('\.tar.gz$', '', map))
+        urllib.request.urlretrieve(url + map, map)
+        with tarfile.open(map) as tar:
             tar.extractall(cache)
-        os.remove(filename)
+        os.remove(map)
 
-url = 'https://github.com/SnoutBug/BeamNG_terrainMaterialCache/releases/download/default/'
-for map in default:
-    print('Getting textures for ' + re.sub('\.tar.gz$', '', map))
-    urllib.request.urlretrieve(url + map, map)
-    with tarfile.open(map) as tar:
-        tar.extractall(cache)
-    os.remove(map)
-
-print('All Done!')
+    print('All Done!')
+except KeyboardInterrupt:
+    print('\nYou cancelled the download.')
