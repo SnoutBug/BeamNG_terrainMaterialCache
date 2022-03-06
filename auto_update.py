@@ -70,3 +70,5 @@ except KeyboardInterrupt:
     except OSError:
         pass
     print('\nYou cancelled the download.')
+    
+quit()
