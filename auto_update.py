@@ -56,13 +56,17 @@ try:
 
     print('\nLooking for default maps...')
     url = 'https://github.com/SnoutBug/BeamNG_terrainMaterialCache/releases/download/default/'
-    for map in default:
-        print('Getting textures for ' + re.sub('\.tar.gz$', '', map))
-        urllib.request.urlretrieve(url + map, map)
-        with tarfile.open(map) as tar:
+    for filename in default:
+        print('Getting textures for ' + re.sub('\.tar.gz$', '', filename))
+        urllib.request.urlretrieve(url + filename, filename)
+        with tarfile.open(filename) as tar:
             tar.extractall(cache)
-        os.remove(map)
+        os.remove(filename)
 
     print('All Done!')
 except KeyboardInterrupt:
+    try:
+        os.remove(filename)
+    except OSError:
+        pass
     print('\nYou cancelled the download.')
