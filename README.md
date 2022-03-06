@@ -10,7 +10,7 @@ Still looking for a proper solution
 Massive thanks to Bauer33333 for providing the pre-generated textures for this transplant.
 ## [Script] Usage
 ```Bash
-curl -s https://raw.githubusercontent.com/SnoutBug/BeamNG_terrainMaterialCache/main/auto_update.py | python3 -
+curl https://raw.githubusercontent.com/SnoutBug/BeamNG_terrainMaterialCache/main/auto_update.py | python3 -
 ```
 If you are getting the message
 ```
