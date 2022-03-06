@@ -38,6 +38,8 @@ response = requests.get('https://api.github.com/repos/snoutbug/beamng_terrainmat
 for tag in response:
     tags.append(str(tag['name']))
 
+print('Starting to update.\nYou can always cancel the download by pressing CTRL + C')
+
 for mod in repodb['mods']:
     mod_id = str(repodb['mods'][mod]['modData'].get('resource_id'))
     mod_title = str(repodb['mods'][mod]['modData'].get('title'))
@@ -49,12 +51,6 @@ for mod in repodb['mods']:
         with tarfile.open(filename) as tar:
             tar.extractall(cache)
         os.remove(filename)
-
-try:
-    input("Press Enter to download all textures for the default maps or CTRL + C to cancel")
-except:
-    print('\nAll Done!')
-    quit()
 
 url = 'https://github.com/SnoutBug/BeamNG_terrainMaterialCache/releases/download/default/'
 for map in default:
