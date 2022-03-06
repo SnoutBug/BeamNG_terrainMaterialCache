@@ -18,7 +18,7 @@ If you are getting the message
 Please make sure that you entered the right path
 python3 auto_update.py PATH_TO_/AppData/Local/BeamNG.drive/
 ```
-Try the manual installation
+Read through [troubleshooting](https://github.com/SnoutBug/BeamNG_terrainMaterialCache#troubleshooting) and try the manual version instead
 
 ## [Manual] Usage (Steam - Proton)
 ### Default Maps
