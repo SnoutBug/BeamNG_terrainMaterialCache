@@ -9,6 +9,7 @@ Still looking for a proper solution
 
 Massive thanks to Bauer33333 for providing the pre-generated textures for this transplant.
 ## [Script] Usage
+Paste the following command into your terminal
 ```Bash
 curl https://raw.githubusercontent.com/SnoutBug/BeamNG_terrainMaterialCache/main/auto_update.py | python3 -
 ```
@@ -17,7 +18,7 @@ If you are getting the message
 Please make sure that you entered the right path
 python3 auto_update.py PATH_TO_/AppData/Local/BeamNG.drive/
 ```
-add the correct path behind `| python3 - ` and try again. (the space behind the last dash is important!)
+Try the manual installation
 
 ## [Manual] Usage (Steam - Proton)
 ### Default Maps
