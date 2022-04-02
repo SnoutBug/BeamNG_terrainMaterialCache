@@ -75,3 +75,8 @@ mkdir ../../compatdata/284160/pfx/drive_c/users/steamuser/AppData/Local/BeamNG.d
  3. Copy all files inside of `%localappdata%\BeamNG.drive\0.24\temp\art\terrainMaterialCache` into an archive
  4. Upload the archive
  5. Use this [link](https://github.com/SnoutBug/BeamNG_terrainMaterialCache/issues/new?assignees=&labels=enhancement&template=contribute.md&title=Repository-PBR-Textures) for further steps
+
+## Links
+[Initial discussion on the forum](https://www.beamng.com/threads/83228/)
+[BeamNG.drive on ProtonDB](https://www.protondb.com/app/284160)
+[Dedicated issue on Valve's GitHub for Proton](https://github.com/ValveSoftware/Proton/issues/1237)
