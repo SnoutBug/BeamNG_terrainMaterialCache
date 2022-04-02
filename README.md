@@ -83,3 +83,5 @@ mkdir ../../compatdata/284160/pfx/drive_c/users/steamuser/AppData/Local/BeamNG.d
 
 [Dedicated issue on Valve's GitHub for Proton](https://github.com/ValveSoftware/Proton/issues/1237)
 
+[Tutorial on YouTube](https://www.youtube.com/watch?v=A6-KYZ25mW8)
+
