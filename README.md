@@ -78,5 +78,8 @@ mkdir ../../compatdata/284160/pfx/drive_c/users/steamuser/AppData/Local/BeamNG.d
 
 ## Links
 [Initial discussion on the forum](https://www.beamng.com/threads/83228/)
+
 [BeamNG.drive on ProtonDB](https://www.protondb.com/app/284160)
+
 [Dedicated issue on Valve's GitHub for Proton](https://github.com/ValveSoftware/Proton/issues/1237)
+
