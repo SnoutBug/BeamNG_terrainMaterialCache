@@ -7,15 +7,6 @@ Hack to fix the Black Terrain found after the 0.24 release on Linux
 
 Massive thanks to every contributor for providing the pre-generated textures for this transplant.
 
-## [Launch Options] Usage
-1. Find BeamNG.drive in your Steam library
-2. Right Click > Properties
-3. Paste the following command into the launch options
-```
-wget -O - https://raw.githubusercontent.com/SnoutBug/BeamNG_terrainMaterialCache/main/get_textures.py | python3 - && %command%
-```
-Now, everytime you launch BeamNG.drive the game will check for available textures for the base maps and modded maps.
-
 ## [Script] Usage
 Paste the following command into your terminal
 ```Bash
