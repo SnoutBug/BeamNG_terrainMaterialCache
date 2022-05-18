@@ -12,12 +12,8 @@ Paste the following command into your terminal
 ```Bash
 curl https://raw.githubusercontent.com/SnoutBug/BeamNG_terrainMaterialCache/main/auto_update.py | python3 -
 ```
-If you are getting the message
-```
-Please make sure that you entered the right path
-python3 auto_update.py PATH_TO_/AppData/Local/BeamNG.drive/
-```
-Read through [troubleshooting](https://github.com/SnoutBug/BeamNG_terrainMaterialCache#troubleshooting) and try the manual version instead
+You're done!
+[Troubleshooting](https://github.com/SnoutBug/BeamNG_terrainMaterialCache#troubleshooting)
 
 ## [Manual] Usage (Steam - Proton)
 ### Default Maps
