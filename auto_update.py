@@ -85,8 +85,11 @@ for dds in os.listdir(cache + 'terrainMaterialCache/'):
 #   texture missing or changed
 try:
     for mod in repodb['mods']:
-        mod_id = str(repodb['mods'][mod]['modData'].get('resource_id'))
-        mod_title = str(repodb['mods'][mod]['modData'].get('title'))
+        try:
+            mod_id = str(repodb['mods'][mod]['modData'].get('resource_id'))
+            mod_title = str(repodb['mods'][mod]['modData'].get('title'))
+        except:
+            continue
         if mod_id in tags:
             print('Verifying ' + mod_title)
             hash_url = 'https://github.com/SnoutBug/BeamNG_terrainMaterialCache/releases/download/' + mod_id + '/md5.txt'
