@@ -17,7 +17,7 @@ custom = False
 tags = []
 hash_table = []
 #Names of default maps in the GitHub repo
-default = ['etk', 'jri', 'utah', 'derby', 'hirochi', 'industrial', 'gridmap_v2', 'small_island',]
+default = ['etk', 'jri', 'utah', 'derby', 'hirochi', 'industrial', 'gridmap_v2', 'small_island', 'east_coast_usa',]
 
 try:
     path = str(sys.argv[1])
