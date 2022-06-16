@@ -35,6 +35,7 @@ wget ${url}hirochi.tar.gz
 wget ${url}industrial.tar.gz
 wget ${url}gridmap_v2.tar.gz
 wget ${url}small_island.tar.gz
+wget ${url}east_coast_usa.tar.gz
 ls *.tar.gz | xargs -n 1 tar -xvf
 rm *.tar.gz
 cd ~/
