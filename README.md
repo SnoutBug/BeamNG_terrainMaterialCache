@@ -1,7 +1,11 @@
-# BeamNG_terrainMaterialCache
-[![Generic Badge](https://img.shields.io/badge/dynamic/json?logoColor=violet&color=FF6600&link=https://wiki.beamng.com/images/b/be/BeamNG-logo-icon-2016.svg&label=Games%20Fixed&query=download_count&url=https://api.github.com/repos/SnoutBug/BeamNG_terrainMaterialCache/releases/assets/52289435)](https://github.com/SnoutBug/BeamNG_terrainMaterialCache/releases/tag/default)
+### **There is a Linux Port available, see [post on BeamNG.drive Forums](https://www.beamng.com/threads/86422/)** 
 
-Cached Texture files for BeamNG
+The port is experimental and therefore not as stable, thus I will keep this repository online for the time being.
+#
+#
+
+# Cached Texture files for BeamNG
+[![Generic Badge](https://img.shields.io/badge/dynamic/json?logoColor=violet&color=FF6600&link=https://wiki.beamng.com/images/b/be/BeamNG-logo-icon-2016.svg&label=Games%20Fixed&query=download_count&url=https://api.github.com/repos/SnoutBug/BeamNG_terrainMaterialCache/releases/assets/52289435)](https://github.com/SnoutBug/BeamNG_terrainMaterialCache/releases/tag/default)
 
 Hack to fix the Black Terrain found after the 0.24 release on Linux
 
@@ -75,9 +79,12 @@ mkdir ../../compatdata/284160/pfx/drive_c/users/steamuser/AppData/Local/BeamNG.d
 ## Links
 [Initial discussion on the forum](https://www.beamng.com/threads/83228/)
 
-[BeamNG.drive on ProtonDB](https://www.protondb.com/app/284160)
+[Linux Port](https://www.beamng.com/threads/86422/)
 
 [Dedicated issue on Valve's GitHub for Proton](https://github.com/ValveSoftware/Proton/issues/1237)
 
+[BeamNG.drive on ProtonDB](https://www.protondb.com/app/284160)
+
 [Tutorial on YouTube](https://www.youtube.com/watch?v=A6-KYZ25mW8)
+
 
