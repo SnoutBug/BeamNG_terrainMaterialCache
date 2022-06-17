@@ -1,6 +1,7 @@
 ### **There is a Linux Port available, see [post on BeamNG.drive Forums](https://www.beamng.com/threads/86422/)** 
 
 The port is experimental and therefore not as stable, thus I will keep this repository online for the time being.
+But please give it a shot!
 #
 #
 
