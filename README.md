@@ -14,7 +14,7 @@ Hack to fix the Black Terrain found after the 0.24 release on Linux using Proton
 Massive thanks to every contributor for providing the pre-generated textures for this transplant.
 
 ## [Script] Usage
-Paste the following command into your terminal (Note: This script will only work on Linux Systems)
+Paste the following command into your terminal (Note: This script will only work on Linux Systems, Mac users go [here](https://github.com/SnoutBug/BeamNG_terrainMaterialCache/blob/main/README.md#running-the-game-with-crossover---mac))
 ```Bash
 curl https://raw.githubusercontent.com/SnoutBug/BeamNG_terrainMaterialCache/main/auto_update.py | python3 -
 ```
