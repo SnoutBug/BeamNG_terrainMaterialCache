@@ -3,7 +3,7 @@ The port is experimental, I will therefore keep this repository online for the t
 But please do give it a shot!
 #
 
-## Textures will load normally when using Proton Experimental Bleeding Edge. The steps below are no longer required if you can switch.
+## Textures will load normally when using Proton Experimental Bleeding Edge. The steps below are no longer required if you can [switch](https://github.com/SnoutBug/BeamNG_terrainMaterialCache/blob/main/switch.md).
 #
 
 # Cached Texture files for BeamNG
