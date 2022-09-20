@@ -6,6 +6,8 @@ But please do give it a shot!
 #
 #
 
+## v0.26 just released, while we update this repo you can download the vanilla maps from [here](https://github.com/SnoutBug/BeamNG_terrainMaterialCache/issues/14) or try the native linux port
+
 # Cached Texture files for BeamNG
 [![Generic Badge](https://img.shields.io/badge/dynamic/json?logoColor=violet&color=FF6600&link=https://wiki.beamng.com/images/b/be/BeamNG-logo-icon-2016.svg&label=Games%20Fixed&query=download_count&url=https://api.github.com/repos/SnoutBug/BeamNG_terrainMaterialCache/releases/assets/52289435)](https://github.com/SnoutBug/BeamNG_terrainMaterialCache/releases/tag/default)
 
