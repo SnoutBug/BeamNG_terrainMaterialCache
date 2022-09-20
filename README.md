@@ -7,7 +7,6 @@ But please do give it a shot!
 #
 
 # Cached Texture files for BeamNG
-[![Generic Badge](https://img.shields.io/badge/dynamic/json?logoColor=violet&color=FF6600&link=https://wiki.beamng.com/images/b/be/BeamNG-logo-icon-2016.svg&label=Games%20Fixed&query=download_count&url=https://api.github.com/repos/SnoutBug/BeamNG_terrainMaterialCache/releases/assets/52289435)](https://github.com/SnoutBug/BeamNG_terrainMaterialCache/releases/tag/default)
 
 Hack to fix the Black Terrain found after the 0.24 release on Linux using Proton/Wine or Mac using Crossover
 
