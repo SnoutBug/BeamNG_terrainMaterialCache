@@ -1,13 +1,9 @@
 ### **There is a Linux Port available, see [post on BeamNG.drive Forums](https://www.beamng.com/threads/86422/)** 
-
-The port is experimental, I will therefore keep this repository online for the time being should any issues arise.
-
+The port is experimental, I will therefore keep this repository online for the time being should there be any issues.
 But please do give it a shot!
 #
-#
 
-# Textures will load normally when using Proton Experimental Bleeding Edge. The steps below are no longer required if you can switch.
-#
+## Textures will load normally when using Proton Experimental Bleeding Edge. The steps below are no longer required if you can switch.
 #
 
 # Cached Texture files for BeamNG
