@@ -79,7 +79,7 @@ mkdir ../../compatdata/284160/pfx/drive_c/users/steamuser/AppData/Local/BeamNG.d
 #### Generating your own Textures
 To generate textures yourself, you can modify and run the command below.
 ```Bash
-curl https://raw.githubusercontent.com/SnoutBug/BeamNG_terrainMaterialCache/main/generate_textures.py | python3 - italy
+MAP="italy" && curl https://raw.githubusercontent.com/SnoutBug/BeamNG_terrainMaterialCache/main/generate_textures.py | python3 - $MAP
 ```
 In this case the textures for Italy will be generated.
 To generate textures for mods, make sure that the mod is placed in `/home/$USER/.local/share/BeamNG.drive/`
