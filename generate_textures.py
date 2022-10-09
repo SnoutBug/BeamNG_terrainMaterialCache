@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+import webbrowser
 import subprocess
 import sys
 import os
@@ -57,7 +58,7 @@ while True:
             print( '    This may take a while. Go grab a cup of coffee...' )
         elif '|I|LoadingManager|     TerrainBlock' in str( realtime_output ):
             print( '[✔] Finished generating!' )
-            process.kill( )
+            process.terminate( )
             break
             
 print( '\n[i] Moving files...' )
@@ -72,6 +73,11 @@ for f in os.listdir( nix_cache ):
         pass
     os.rename( nix_cache + '/' + f, path + version + 'temp/art/terrainMaterialCache/' + f )
 os.rmdir( nix_cache )
-os.rename( home + '/' + sub_nixlocal + version + 'temp/art/existing_terrainmaterialcache', nix_cache )
+try:
+    os.rename( home + '/' + sub_nixlocal + version + 'temp/art/existing_terrainmaterialcache', nix_cache )
+except:
+    pass
 
 print( '[✔] Finished moving files!' )
+
+#os.system("xdg-open steam://rungameid/284160")
