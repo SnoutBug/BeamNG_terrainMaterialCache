@@ -1,10 +1,8 @@
 ### **There is a Linux Port available, see [post on BeamNG.drive Forums](https://www.beamng.com/threads/86422/)** 
 The port is experimental, I will therefore keep this repository online for the time being should there be any issues.
 But please do give it a shot!
-#
 
-## Textures will load normally when using Proton Experimental Bleeding Edge. The steps below are no longer required if you can [switch](https://github.com/SnoutBug/BeamNG_terrainMaterialCache/blob/main/switch.md).
-#
+#### Textures will load normally when using Proton Experimental Bleeding Edge. The steps below are no longer required if you can [switch](https://github.com/SnoutBug/BeamNG_terrainMaterialCache/blob/main/switch.md).
 
 # Cached Texture files for BeamNG
 
@@ -77,6 +75,14 @@ mkdir ../../compatdata/284160/pfx/drive_c/users/steamuser/AppData/Local/BeamNG.d
   - Should the `temp` or `art` folders not exist, create them.
  4. Once inside the `art` folder, open the Terminal [at the current location](https://www.maketecheasier.com/launch-terminal-current-folder-mac/)
  5. Use the commands [above](https://github.com/SnoutBug/BeamNG_terrainMaterialCache#default-maps) **excluding** the first two (`mkdir` and `cd`)
+
+#### Generating your own Textures
+To generate textures yourself, you can modify and run the command below.
+```Bash
+curl https://raw.githubusercontent.com/SnoutBug/BeamNG_terrainMaterialCache/main/generate_textures.py | python3 - italy
+```
+In this case the textures for Italy will be generated.
+To generate textures for mods, make sure that the mod is placed in `/home/$USER/.local/share/BeamNG.drive/`
 
 ## Contribute
 ### You created a map using a PBR terrain and want to contribute
