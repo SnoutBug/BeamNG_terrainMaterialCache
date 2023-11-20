@@ -77,7 +77,7 @@ mkdir ../../compatdata/284160/pfx/drive_c/users/steamuser/AppData/Local/BeamNG.d
  5. Use the commands [above](https://github.com/SnoutBug/BeamNG_terrainMaterialCache#default-maps) **excluding** the first two (`mkdir` and `cd`)
 
 #### Generating your own Textures
-To generate textures yourself, you can modify and run the command below.
+To generate textures yourself, you can modify and run the command below. Note: This script was designed for use with Linux only.
 ```Bash
 MAP="italy" && curl https://raw.githubusercontent.com/SnoutBug/BeamNG_terrainMaterialCache/main/generate_textures.py | python3 - $MAP
 ```
