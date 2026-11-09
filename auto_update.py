@@ -61,7 +61,7 @@ with open(mods + 'db.json') as file:
     repodb = json.load(file)
 
 #Get supported maps from GitHub
-response = requests.get('https://api.github.com/repos/snoutbug/beamng_terrainmaterialcache/tags').json()
+response = requests.get('https://api.github.com/repos/snoutbug/beamng_terrainmaterialcache/tags', timeout=30).json()
 
 #tag = mod_id
 for tag in response:
